@@ -5,9 +5,9 @@ admin_path: "/static/admin"
 webhook_url: 
 sections:
 - type: directory
-  path: projects
-  label: Projects
-  create: documents
+  path: Spaces
+  label: Spaces
+  create: all
   match: "**/*.md"
   templates:
   - project
