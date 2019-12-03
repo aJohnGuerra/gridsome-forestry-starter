@@ -1,4 +1,18 @@
 ---
 label: Books
 hide_body: false
-fields: []
+fields:
+- name: summary
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Summary
+- name: cover
+  type: file
+  config:
+    maxSize: 250
+  label: Cover
